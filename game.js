@@ -71,7 +71,7 @@ function nextSequence() {
     var randomChosenColour = buttonColours[randomNumber];
     gamePattern.push(randomChosenColour);
 
-    $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
+    $("#" + randomChosenColour).fadeIn(50).fadeOut(50).fadeIn(50);
     playSound(randomChosenColour);
 }
 
@@ -86,7 +86,7 @@ function animatePress(currentColor) {
     $("#" + currentColor).addClass("pressed");
     setTimeout(function () {
         $("#" + currentColor).removeClass("pressed");
-    }, 100);
+    }, 50);
 }
 
 
