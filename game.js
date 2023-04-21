@@ -38,7 +38,7 @@ function checkAnswer(currentLevel) {
             //Call nextSequence() after a 1000 millisecond delay.
             setTimeout(function () {
                 nextSequence();
-            }, 1000);
+            }, 500);
         }
 
     } else {
